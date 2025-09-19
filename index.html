@@ -15,19 +15,36 @@
 <body>
 
     <header>
-        <img src="assets/profile.jpg" alt="Foto de Victor Carvalho" id="profile-pic">
-        <h1>Victor Carvalho</h1>
-        <p>Desenvolvedor Front-End em formação</p>
+        <section aria-labelledby="profile-title">
+            <img src="assets/profile.jpg" alt="Foto de Victor Carvalho" id="profile-pic">
+            <h1 id="profile-title">Victor Carvalho</h1>
+            <p>Desenvolvedor Front-End em formação</p>
+        </section>
     </header>
 
     <main>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/victorcarvalhob" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/victor-carvalho-39b340358/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/ovictorcarvalho_/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
-            </ul>
-        </nav>
+        <section aria-labelledby="links-title">
+            <h2 id="links-title" class="sr-only">Meus Links</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://github.com/victorcarvalhob" target="_blank" aria-label="Acessar perfil do Victor Carvalho no GitHub">
+                            <i class="fab fa-github"></i>GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ovictorcarvalho-dev/" target="_blank" aria-label="Acessar perfil do Victor Carvalho no LinkedIn">
+                            <i class="fab fa-linkedin"></i>LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ovictorcarvalho_/" target="_blank" aria-label="Acessar perfil do Victor Carvalho no Instagram">
+                            <i class="fab fa-instagram"></i>Instagram
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
     </main>
 
     <footer>
