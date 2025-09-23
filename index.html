@@ -21,7 +21,14 @@
 
     <header>
         <section aria-labelledby="profile-title">
-            <img src="assets/profile.jpg" alt="Foto de Victor Carvalho" id="profile-pic">
+            <picture>
+                <source src="assets/profile.webp" type="image/webp">
+                <img src="assets/profile.jpg"
+                     alt="Foto de Victor Carvalho"
+                     id="profile-pic"
+                     loading="lazy">
+            </picture>
+
             <h1 id="profile-title">Victor Carvalho</h1>
             <p>Desenvolvedor Front-End em formação</p>
         </section>
