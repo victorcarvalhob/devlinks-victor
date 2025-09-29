@@ -77,6 +77,15 @@ p{
     transform: scale(1.1);
 }
 
+.about-text {
+    max-width: 600px;
+    margin: 0 auto 24px auto;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--subtitle-color);
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
