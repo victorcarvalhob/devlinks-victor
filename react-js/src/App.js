@@ -32,9 +32,9 @@ function App() {
     <header>
       <section aria-labelledby='profile-title'>
         <picture>
-          <source srcSet='/assets/profile.webp' type='image/webp ' />
+          <source srcSet={`${process.env.PUBLIC_URL}/assets/profile.webp`} type='image/webp' />
           <img
-          src='/assets/profile.jpg'
+          src={`${process.env.PUBLIC_URL}/assets/profile.jpg`}
           alt='Foto de Victor Carvalho'
           id='profile-pic'
           loading='lazy'
