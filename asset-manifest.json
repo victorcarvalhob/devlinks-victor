@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devlinks-victor/static/css/main.61b7892d.css",
+    "main.js": "/devlinks-victor/static/js/main.19c053ca.js",
+    "index.html": "/devlinks-victor/index.html",
+    "main.61b7892d.css.map": "/devlinks-victor/static/css/main.61b7892d.css.map",
+    "main.19c053ca.js.map": "/devlinks-victor/static/js/main.19c053ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61b7892d.css",
+    "static/js/main.19c053ca.js"
+  ]
+}
