@@ -1,31 +1,52 @@
-# DevLinks - Victor Carvalho
+# 💻 DevLinks — React Edition
 
-Projeto pessoal de página de links sociais desenvolvido com **HTML e CSS**, inspirado em perfis de redes sociais como Linktree.
+**DevLinks** é uma página de links pessoal convertida para **React**, pensada para ser um card de apresentação profissional (links, redes sociais, download de currículo) — fácil de manter e apresentar em entrevistas. Projeto focado em boas práticas de frontend: acessibilidade, performance básica, responsividade e estrutura clara para portfólio.
 
-## 🔗 Acesse o Projeto Online
+---
 
-👉 [Clique aqui para ver o projeto publicado](https://victorcarvalhob.github.io/devlinks-victor/)
+## 🔎 Visão rápida
+- Página de links pessoal para contatos e portfólio;
+- Tema claro/escuro com persistência via `localStorage`;
+- Links gerenciados via `links.json` (renderização dinâmica);
+- Construída em **React** com enfoque em código limpo e usabilidade.
 
-## 📸 Preview
+---
 
-![DevLinks Preview](assets/devlinks-preview.png)
+## 🚀 Tecnologias
+- **React.js** (JSX, Hooks)
+- **HTML5 / CSS3**
+- **JavaScript (ES6+)**
+- **JSON** (dados estáticos)
+- **LocalStorage** (persistência de preferências)
+- Fontes Google & Font Awesome para ícones
 
-## 💡 Funcionalidades
+---
 
-- Layout responsivo
-- Design moderno e acessível
-- Ícones integrados via Font Awesome
-- Estilização com variáveis CSS
-- Organização semântica do HTML
+## ✅ Funcionalidades
+- Alternância entre **modo claro** e **modo escuro** (persistente);
+- Renderização dinâmica de links a partir de `src/data/links.json`;
+- Design responsivo (mobile → desktop);
+- Meta tags e Open Graph para compartilhamento (SEO básico);
+- Marcação semântica e atributos de acessibilidade (`aria-*`, `alt`, `.sr-only`).
 
-## 🛠 Tecnologias Utilizadas
+---
 
-- HTML5
-- CSS3
-- Font Awesome
-- Google Fonts (Poppins, Roboto)
+## 📸 Capturas e demonstração
 
-## 🧑‍💻 Autor
+![Preview](/react-js/public/assets/devlinks-preview.png)
 
-Feito com 💻 por **Victor Carvalho**  
-[GitHub](https://github.com/victorcarvalhob) | [LinkedIn](https://www.linkedin.com/in/victor-carvalho-39b340358/)
+---
+
+## 👨‍💻 Autor
+
+**Victor Carvalho** — Desenvolvedor Front-End em formação
+- GitHub: https://github.com/victorcarvalhob
+- LinkedIn: https://www.linkedin.com/in/ovictorcarvalho-dev/
+
+---
+
+## 📝 Licença
+
+Esse projeto está disponível sob a **Licença MIT**.
+
+Sinta-se livre para usar e adaptar — apenas mantenha a atribuição quando for distribuir.
